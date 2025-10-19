@@ -1,8 +1,8 @@
-// src/nodes/AWSIntegrationNode.jsx
+
 import { useState } from "react";
 import BaseNode from "./BaseNode";
 import DeleteIcon from "@mui/icons-material/Delete";
-import CloudIcon from "@mui/icons-material/Cloud"; // AWS cloud icon
+import CloudIcon from "@mui/icons-material/Cloud"; 
 
 export default function AWSIntegrationNode({ id, data, onDelete }) {
   const [nodeName, setNodeName] = useState(
@@ -21,8 +21,8 @@ export default function AWSIntegrationNode({ id, data, onDelete }) {
     <BaseNode
       id={id}
       title="AWS Integration"
-      inputs={["trigger"]} // Node can receive a trigger
-      outputs={["result"]} // Output result
+      inputs={["trigger"]} 
+      outputs={["result"]} 
       onDelete={onDelete}
     >
       {/* Header */}
@@ -42,7 +42,7 @@ export default function AWSIntegrationNode({ id, data, onDelete }) {
 
       {/* Node Content */}
       <div className="flex flex-col gap-2">
-        {/* Name */}
+    
         <label className="flex flex-col text-sm">
           Name:
           <input

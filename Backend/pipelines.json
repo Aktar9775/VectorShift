@@ -666,5 +666,449 @@
                 "id": "reactflow__edge-marge-1marge-1-result-customOutput-1customOutput-1-input1"
             }
         ]
+    },
+    {
+        "submittedAt": "2025-10-19T15:59:14.300Z",
+        "num_nodes": 5,
+        "num_edges": 4,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 88.19692644344543,
+                    "y": 135.25952739400574
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 188,
+                "height": 201
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 134,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "dragging": false
+            },
+            {
+                "id": "text-2",
+                "type": "text",
+                "position": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "data": {
+                    "id": "text-2",
+                    "nodeType": "text"
+                },
+                "width": 181,
+                "height": 136,
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "dragging": false
+            },
+            {
+                "id": "marge-1",
+                "type": "marge",
+                "position": {
+                    "x": 629.2449310540525,
+                    "y": 174.4547663643764
+                },
+                "data": {
+                    "id": "marge-1",
+                    "nodeType": "marge"
+                },
+                "width": 251,
+                "height": 237
+            },
+            {
+                "id": "customOutput-2",
+                "type": "customOutput",
+                "position": {
+                    "x": 912.8340130161462,
+                    "y": 182.90864143641716
+                },
+                "data": {
+                    "id": "customOutput-2",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-marge-1marge-1-input1"
+            },
+            {
+                "source": "text-2",
+                "sourceHandle": "text-2-output1",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-text-2text-2-output1-marge-1marge-1-input1"
+            },
+            {
+                "source": "marge-1",
+                "sourceHandle": "marge-1-result",
+                "target": "customOutput-2",
+                "targetHandle": "customOutput-2-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-marge-1marge-1-result-customOutput-2customOutput-2-input1"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T16:02:17.366Z",
+        "num_nodes": 5,
+        "num_edges": 4,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 88.19692644344543,
+                    "y": 135.25952739400574
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 188,
+                "height": 201
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 134,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "dragging": false
+            },
+            {
+                "id": "text-2",
+                "type": "text",
+                "position": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "data": {
+                    "id": "text-2",
+                    "nodeType": "text"
+                },
+                "width": 181,
+                "height": 176,
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "dragging": false
+            },
+            {
+                "id": "marge-1",
+                "type": "marge",
+                "position": {
+                    "x": 629.2449310540525,
+                    "y": 174.4547663643764
+                },
+                "data": {
+                    "id": "marge-1",
+                    "nodeType": "marge"
+                },
+                "width": 251,
+                "height": 237
+            },
+            {
+                "id": "customOutput-2",
+                "type": "customOutput",
+                "position": {
+                    "x": 912.8340130161462,
+                    "y": 182.90864143641716
+                },
+                "data": {
+                    "id": "customOutput-2",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-marge-1marge-1-input1"
+            },
+            {
+                "source": "text-2",
+                "sourceHandle": "text-2-output1",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-text-2text-2-output1-marge-1marge-1-input1"
+            },
+            {
+                "source": "marge-1",
+                "sourceHandle": "marge-1-result",
+                "target": "customOutput-2",
+                "targetHandle": "customOutput-2-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-marge-1marge-1-result-customOutput-2customOutput-2-input1"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T16:02:17.581Z",
+        "num_nodes": 5,
+        "num_edges": 4,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 88.19692644344543,
+                    "y": 135.25952739400574
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 188,
+                "height": 201
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 134,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 356.484241455886,
+                    "y": 97.12481946553478
+                },
+                "dragging": false
+            },
+            {
+                "id": "text-2",
+                "type": "text",
+                "position": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "data": {
+                    "id": "text-2",
+                    "nodeType": "text"
+                },
+                "width": 181,
+                "height": 176,
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 379.4713493801217,
+                    "y": 288.96634688565547
+                },
+                "dragging": false
+            },
+            {
+                "id": "marge-1",
+                "type": "marge",
+                "position": {
+                    "x": 629.2449310540525,
+                    "y": 174.4547663643764
+                },
+                "data": {
+                    "id": "marge-1",
+                    "nodeType": "marge"
+                },
+                "width": 251,
+                "height": 237
+            },
+            {
+                "id": "customOutput-2",
+                "type": "customOutput",
+                "position": {
+                    "x": 912.8340130161462,
+                    "y": 182.90864143641716
+                },
+                "data": {
+                    "id": "customOutput-2",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-marge-1marge-1-input1"
+            },
+            {
+                "source": "text-2",
+                "sourceHandle": "text-2-output1",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-text-2text-2-output1-marge-1marge-1-input1"
+            },
+            {
+                "source": "marge-1",
+                "sourceHandle": "marge-1-result",
+                "target": "customOutput-2",
+                "targetHandle": "customOutput-2-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-marge-1marge-1-result-customOutput-2customOutput-2-input1"
+            }
+        ]
     }
 ]
