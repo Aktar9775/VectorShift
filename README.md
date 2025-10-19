@@ -12,7 +12,16 @@
 VectorShift is a **Frontend Technical Assessment project** demonstrating a modern **React.js + Tailwind CSS** frontend and **FastAPI + Python** backend integration.
 
 ---
+## Screenshots
 
+<p float="left">
+  
+  <img  height="1700" alt="Screenshot 2025-10-19 181827" src="https://github.com/user-attachments/assets/6bb6cb38-f8a7-4d9f-a140-16b28c578019"  />
+<img width="700" height="400" alt="Screenshot 2025-10-19 181845" src="https://github.com/user-attachments/assets/fc34f02a-b8e1-4929-a8da-931b9bb78884"  />
+<img width="300" height="400" alt="Screenshot 2025-10-19 181620" src="https://github.com/user-attachments/assets/c0b2d0d2-8b48-4315-90a8-f4c49364cdcd"/>
+ </p>
+
+---
 ## Table of Contents
 
 - [Technologies](#technologies)  
