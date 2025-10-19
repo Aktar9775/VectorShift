@@ -1,0 +1,670 @@
+[
+    {
+        "submittedAt": "2025-10-19T10:26:47.920Z",
+        "num_nodes": 3,
+        "num_edges": 2,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 166,
+                    "y": 189
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 196,
+                "height": 191
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 434,
+                    "y": 262
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 129
+            },
+            {
+                "id": "customOutput-1",
+                "type": "customOutput",
+                "position": {
+                    "x": 745,
+                    "y": 256
+                },
+                "data": {
+                    "id": "customOutput-1",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 195
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "customOutput-1",
+                "targetHandle": "customOutput-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-customOutput-1customOutput-1-input1"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T10:27:39.716Z",
+        "num_nodes": 3,
+        "num_edges": 2,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 145,
+                    "y": 157
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 196,
+                "height": 191
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 407,
+                    "y": 173
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 129
+            },
+            {
+                "id": "customOutput-1",
+                "type": "customOutput",
+                "position": {
+                    "x": 773,
+                    "y": 244
+                },
+                "data": {
+                    "id": "customOutput-1",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 195
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "customOutput-1",
+                "targetHandle": "customOutput-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-customOutput-1customOutput-1-input1"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T12:28:17.506Z",
+        "num_nodes": 4,
+        "num_edges": 3,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "aws-1",
+                "type": "aws",
+                "position": {
+                    "x": 638.0464878180883,
+                    "y": 168.1174967942339
+                },
+                "data": {
+                    "id": "aws-1",
+                    "nodeType": "aws"
+                },
+                "width": 196,
+                "height": 311,
+                "selected": true,
+                "positionAbsolute": {
+                    "x": 638.0464878180883,
+                    "y": 168.1174967942339
+                },
+                "dragging": false
+            },
+            {
+                "id": "customOutput-1",
+                "type": "customOutput",
+                "position": {
+                    "x": 982.1606001553117,
+                    "y": 342.3524903827013
+                },
+                "data": {
+                    "id": "customOutput-1",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199
+            },
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 298.28825032057665,
+                    "y": 240.71541078942857
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 134,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 298.28825032057665,
+                    "y": 240.71541078942857
+                },
+                "dragging": false
+            },
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": -32.75823749751173,
+                    "y": 173.92532991384937
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 196,
+                "height": 195
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "aws-1",
+                "targetHandle": "aws-1-trigger",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-aws-1aws-1-trigger"
+            },
+            {
+                "source": "aws-1",
+                "sourceHandle": "aws-1-result",
+                "target": "customOutput-1",
+                "targetHandle": "customOutput-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-aws-1aws-1-result-customOutput-1customOutput-1-input1"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T12:44:33.545Z",
+        "num_nodes": 5,
+        "num_edges": 4,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "customInput-2",
+                "type": "customInput",
+                "position": {
+                    "x": 177,
+                    "y": 157
+                },
+                "data": {
+                    "id": "customInput-2",
+                    "nodeType": "customInput"
+                },
+                "width": 196,
+                "height": 195
+            },
+            {
+                "id": "aws-2",
+                "type": "aws",
+                "position": {
+                    "x": 408,
+                    "y": 375
+                },
+                "data": {
+                    "id": "aws-2",
+                    "nodeType": "aws"
+                },
+                "width": 196,
+                "height": 311,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 408,
+                    "y": 375
+                },
+                "dragging": false
+            },
+            {
+                "id": "websearch-2",
+                "type": "websearch",
+                "position": {
+                    "x": 715,
+                    "y": 48
+                },
+                "data": {
+                    "id": "websearch-2",
+                    "nodeType": "websearch"
+                },
+                "width": 370,
+                "height": 179,
+                "selected": false,
+                "dragging": false,
+                "positionAbsolute": {
+                    "x": 715,
+                    "y": 48
+                }
+            },
+            {
+                "id": "customOutput-2",
+                "type": "customOutput",
+                "position": {
+                    "x": 843,
+                    "y": 328
+                },
+                "data": {
+                    "id": "customOutput-2",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199
+            },
+            {
+                "id": "text-2",
+                "type": "text",
+                "position": {
+                    "x": 420,
+                    "y": 39
+                },
+                "data": {
+                    "id": "text-2",
+                    "nodeType": "text"
+                },
+                "width": 181,
+                "height": 136,
+                "selected": true,
+                "dragging": false,
+                "positionAbsolute": {
+                    "x": 420,
+                    "y": 39
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "customInput-2",
+                "sourceHandle": "customInput-2-value",
+                "target": "aws-2",
+                "targetHandle": "aws-2-trigger",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-2customInput-2-value-aws-2aws-2-trigger"
+            },
+            {
+                "source": "aws-2",
+                "sourceHandle": "aws-2-result",
+                "target": "websearch-2",
+                "targetHandle": "websearch-2-trigger",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-aws-2aws-2-result-websearch-2websearch-2-trigger"
+            },
+            {
+                "source": "websearch-2",
+                "sourceHandle": "websearch-2-results",
+                "target": "customOutput-2",
+                "targetHandle": "customOutput-2-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-websearch-2websearch-2-results-customOutput-2customOutput-2-input1"
+            },
+            {
+                "source": "text-2",
+                "sourceHandle": "text-2-output1",
+                "target": "websearch-2",
+                "targetHandle": "websearch-2-trigger",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-text-2text-2-output1-websearch-2websearch-2-trigger"
+            }
+        ]
+    },
+    {
+        "submittedAt": "2025-10-19T12:48:36.597Z",
+        "num_nodes": 7,
+        "num_edges": 6,
+        "is_dag": true,
+        "nodes": [
+            {
+                "id": "llm-1",
+                "type": "llm",
+                "position": {
+                    "x": 441.13026012950365,
+                    "y": 170.07665457911313
+                },
+                "data": {
+                    "id": "llm-1",
+                    "nodeType": "llm"
+                },
+                "width": 180,
+                "height": 134,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 441.13026012950365,
+                    "y": 170.07665457911313
+                },
+                "dragging": false
+            },
+            {
+                "id": "text-1",
+                "type": "text",
+                "position": {
+                    "x": 174.87647170310174,
+                    "y": 36.47934731215531
+                },
+                "data": {
+                    "id": "text-1",
+                    "nodeType": "text"
+                },
+                "width": 181,
+                "height": 136,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 174.87647170310174,
+                    "y": 36.47934731215531
+                },
+                "dragging": false
+            },
+            {
+                "id": "customInput-1",
+                "type": "customInput",
+                "position": {
+                    "x": 130.6576446499538,
+                    "y": 260.3959609004367
+                },
+                "data": {
+                    "id": "customInput-1",
+                    "nodeType": "customInput"
+                },
+                "width": 196,
+                "height": 195,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 130.6576446499538,
+                    "y": 260.3959609004367
+                },
+                "dragging": false
+            },
+            {
+                "id": "aws-1",
+                "type": "aws",
+                "position": {
+                    "x": 674.4551347929229,
+                    "y": 54.35504335491726
+                },
+                "data": {
+                    "id": "aws-1",
+                    "nodeType": "aws"
+                },
+                "width": 196,
+                "height": 311,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 674.4551347929229,
+                    "y": 54.35504335491726
+                },
+                "dragging": false
+            },
+            {
+                "id": "agent-1",
+                "type": "agent",
+                "position": {
+                    "x": 414.7871291191174,
+                    "y": 377.99922433966026
+                },
+                "data": {
+                    "id": "agent-1",
+                    "nodeType": "agent"
+                },
+                "width": 238,
+                "height": 343,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 414.7871291191174,
+                    "y": 377.99922433966026
+                },
+                "dragging": false
+            },
+            {
+                "id": "marge-1",
+                "type": "marge",
+                "position": {
+                    "x": 909.6616616713698,
+                    "y": 327.19461453391557
+                },
+                "data": {
+                    "id": "marge-1",
+                    "nodeType": "marge"
+                },
+                "width": 251,
+                "height": 237,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 909.6616616713698,
+                    "y": 327.19461453391557
+                },
+                "dragging": false
+            },
+            {
+                "id": "customOutput-1",
+                "type": "customOutput",
+                "position": {
+                    "x": 1256.4214447010752,
+                    "y": 175.1722585404251
+                },
+                "data": {
+                    "id": "customOutput-1",
+                    "nodeType": "customOutput"
+                },
+                "width": 196,
+                "height": 199,
+                "selected": false,
+                "positionAbsolute": {
+                    "x": 1256.4214447010752,
+                    "y": 175.1722585404251
+                },
+                "dragging": false
+            }
+        ],
+        "edges": [
+            {
+                "source": "text-1",
+                "sourceHandle": "text-1-output1",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-text-1text-1-output1-llm-1llm-1-system"
+            },
+            {
+                "source": "customInput-1",
+                "sourceHandle": "customInput-1-value",
+                "target": "llm-1",
+                "targetHandle": "llm-1-system",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-customInput-1customInput-1-value-llm-1llm-1-system"
+            },
+            {
+                "source": "llm-1",
+                "sourceHandle": "llm-1-response",
+                "target": "aws-1",
+                "targetHandle": "aws-1-trigger",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-llm-1llm-1-response-aws-1aws-1-trigger"
+            },
+            {
+                "source": "aws-1",
+                "sourceHandle": "aws-1-result",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-aws-1aws-1-result-marge-1marge-1-input1"
+            },
+            {
+                "source": "agent-1",
+                "sourceHandle": "agent-1-response",
+                "target": "marge-1",
+                "targetHandle": "marge-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-agent-1agent-1-response-marge-1marge-1-input1"
+            },
+            {
+                "source": "marge-1",
+                "sourceHandle": "marge-1-result",
+                "target": "customOutput-1",
+                "targetHandle": "customOutput-1-input1",
+                "type": "smoothstep",
+                "animated": true,
+                "markerEnd": {
+                    "type": "arrow",
+                    "height": 20,
+                    "width": 20
+                },
+                "id": "reactflow__edge-marge-1marge-1-result-customOutput-1customOutput-1-input1"
+            }
+        ]
+    }
+]
