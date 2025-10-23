@@ -8,7 +8,7 @@ import OutputIcon from "@mui/icons-material/Output";
 import TextFieldsIcon from "@mui/icons-material/TextFields";
 import SearchIcon from "@mui/icons-material/Search";
 import Agent from "@mui/icons-material/Psychology";
-import Marge from "@mui/icons-material/merge";
+import Marge from "@mui/icons-material/MergeType";
 import AWS from "@mui/icons-material/Cloud";
 
 
