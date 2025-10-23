@@ -21,7 +21,7 @@ PIPELINE_LOG_FILE = "pipelines.json"
 # Make sure file exists
 if not os.path.exists(PIPELINE_LOG_FILE):
     with open(PIPELINE_LOG_FILE, "w", encoding="utf-8") as f:
-        json.dump([], f)  # start with empty array
+        json.dump([], f)  
 
 
 @app.get("/")
