@@ -1,5 +1,5 @@
 // submit.js
-
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 export const handleSubmit = async (nodes, edges) => {
   try {
     const pipelineData = {
@@ -10,7 +10,7 @@ export const handleSubmit = async (nodes, edges) => {
 
     console.log("📤 Sending pipeline data to FastAPI:", pipelineData);
 
-    const response = await fetch("http://localhost:8000/pipelines/parse", {
+    const response = await fetch(`${BACKEND_URL}/pipelines/parse`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
